@@ -12,6 +12,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/style.css" />
     <script defer src="assets/app.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
     <style>
       body {
         background-color: #000; /* Fondo negro */
@@ -40,18 +59,41 @@
     </style>
   </head>
   <body class="text-white font-[Poppins]">
-    <header class="sticky top-0 z-50 bg-black/80 backdrop-blur border-b border-white">
+    <header
+      class="sticky top-0 z-50 bg-black/80 backdrop-blur border-b border-white"
+    >
       <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between h-16">
-          <a href="index.html" class="text-2xl tracking-widest font-black text-white">PRESNCE</a>
+          <a
+            href="index.html"
+            class="text-2xl tracking-widest font-black text-white"
+            >PRESNCE</a
+          >
           <nav class="hidden md:flex gap-6 text-sm text-white">
             <a class="hover:text-gray-300" href="index.html">Inicio</a>
             <a class="hover:text-gray-300" href="productos.html">Prendas</a>
-            <a class="hover:text-gray-300" href="https://www.instagram.com/presnce_pe/" target="_blank" rel="noreferrer">Instagram</a>
+            <a
+              class="hover:text-gray-300"
+              href="https://www.instagram.com/presnce_pe/"
+              target="_blank"
+              rel="noreferrer"
+              >Instagram</a
+            >
           </nav>
           <button id="menuBtn" class="md:hidden text-white" aria-label="Menu">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
             </svg>
           </button>
         </div>
@@ -60,21 +102,37 @@
         <div class="px-4 py-3 flex flex-col gap-3 text-neutral-200">
           <a href="index.html">Inicio</a>
           <a href="productos.html">Prendas</a>
-          <a href="https://www.instagram.com/presnce_pe/" target="_blank" rel="noreferrer">Instagram</a>
+          <a
+            href="https://www.instagram.com/presnce_pe/"
+            target="_blank"
+            rel="noreferrer"
+            >Instagram</a
+          >
         </div>
       </div>
     </header>
 
     <section class="relative">
       <div class="h-[72vh] md:h-[82vh] relative overflow-hidden">
-        <img src="https://i.ibb.co/qLFmH3hS/image.png" alt="Studio shot" class="w-full h-full object-cover opacity-70" />
-        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+        <img
+          src="https://i.ibb.co/qLFmH3hS/image.png"
+          alt="Studio shot"
+          class="w-full h-full object-cover opacity-70"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"
+        ></div>
         <div class="absolute inset-0 flex items-end md:items-center">
           <div class="max-w-7xl mx-auto px-4 pb-16 md:pb-0">
-            <h1 class="text-5xl md:text-7xl font-black tracking-tight leading-none">
+            <h1
+              class="text-5xl md:text-7xl font-black tracking-tight leading-none"
+            >
               Nueva caída<br /><span class="text-white">PRESNCE</span> FW
             </h1>
-            <p class="mt-4 text-gray-300 max-w-xl">Poleras premium con fit relajado y estética urbana. Hechas para la calle.</p>
+            <p class="mt-4 text-gray-300 max-w-xl">
+              Poleras premium con fit relajado y estética urbana. Hechas para la
+              calle.
+            </p>
             <div class="mt-8 flex gap-4">
               <a href="productos.html" class="btn-primary">Ver Prendas</a>
             </div>
@@ -85,34 +143,60 @@
 
     <section id="look" class="max-w-7xl mx-auto px-4 py-16">
       <h2 class="section-title">Destacados</h2>
-      <div id="featuredGrid" class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      <div
+        id="featuredGrid"
+        class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+      ></div>
       <div class="mt-10 text-center">
         <a href="productos.html" class="btn-primary">Ver todas</a>
       </div>
     </section>
 
     <section class="max-w-7xl mx-auto px-4 py-8">
-      <div class="rounded-2xl border border-white p-6 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6 bg-black/40">
+      <div
+        class="rounded-2xl border border-white p-6 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6 bg-black/40"
+      >
         <div>
           <h3 class="text-2xl font-semibold">¿Dudas o pedidos?</h3>
-          <p class="text-gray-300">Chatea directo por WhatsApp. Resolvemos tallas, envíos y stock.</p>
+          <p class="text-gray-300">
+            Chatea directo por WhatsApp. Resolvemos tallas, envíos y stock.
+          </p>
         </div>
-        <a href="#" id="whatsappCTA" class="btn-whatsapp">Escríbenos por WhatsApp</a>
+        <a href="#" id="whatsappCTA" class="btn-whatsapp"
+          >Escríbenos por WhatsApp</a
+        >
       </div>
     </section>
 
     <footer class="border-t border-white py-10 mt-20">
-      <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8 text-gray-400">
+      <div
+        class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8 text-gray-400"
+      >
         <div>
           <h4 class="text-white font-semibold tracking-wide">PRESNCE</h4>
           <p class="mt-2 text-sm">Own the moment. Streetwear hecho en Lima.</p>
         </div>
         <div class="text-sm">
-          <p>Contacto: <a class="underline text-white" href="mailto:hola@presnce.pe">hola@presnce.pe</a></p>
-          <p class="mt-2">IG: <a class="underline text-white" href="https://instagram.com/presnce_pe" target="_blank">@presnce_pe</a></p>
+          <p>
+            Contacto:
+            <a class="underline text-white" href="mailto:hola@presnce.pe"
+              >hola@presnce.pe</a
+            >
+          </p>
+          <p class="mt-2">
+            IG:
+            <a
+              class="underline text-white"
+              href="https://instagram.com/presnce_pe"
+              target="_blank"
+              >@presnce_pe</a
+            >
+          </p>
         </div>
         <div class="text-sm">
-          <p>© <span id="year"></span> Presnce. Todos los derechos reservados.</p>
+          <p>
+            © <span id="year"></span> Presnce. Todos los derechos reservados.
+          </p>
           <p class="mt-2">Políticas y Términos — sitio demo.</p>
         </div>
       </div>
