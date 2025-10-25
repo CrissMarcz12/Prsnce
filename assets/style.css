@@ -1,5 +1,5 @@
 
-:root { --accent: #000000; }
+:root {   color-scheme: dark;   }
 * { box-sizing: border-box; }
 .btn-primary { @apply inline-flex items-center justify-center px-5 py-3 rounded-xl bg-lime-400 text-black font-semibold hover:bg-lime-300 transition; }
 .btn-ghost { @apply inline-flex items-center justify-center px-5 py-3 rounded-xl border border-neutral-700 hover:bg-neutral-800 transition; }
