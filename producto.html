@@ -239,7 +239,7 @@
       });
 
       document.getElementById("buyBtn").addEventListener("click", () => {
-        const phone = "+51 961 779 024"; // from data.js
+        const phone = "51961779024"; // +51 961 779 024 en formato wa.me
         const msg = `Hola, quiero la *${p.name}* (Talla: ${selectedSize}) — S/. ${p.price}. ¿Hay stock?`;
         const url = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
         window.open(url, "_blank");
