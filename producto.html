@@ -220,7 +220,7 @@
       });
 
       document.getElementById("buyBtn").addEventListener("click", () => {
-        const phone = WHATSAPP_NUMBER; // from data.js
+        const phone = "+51 961 779 024"; // from data.js
         const msg = `Hola, quiero la *${p.name}* (Talla: ${selectedSize}) — S/. ${p.price}. ¿Hay stock?`;
         const url = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
         window.open(url, "_blank");
